@@ -2,6 +2,7 @@ import speech_recognition as sr
 import webbrowser
 import os
 
+# Функция для распознавания речи и выполнения команд
 def voice_assistant():
     recognizer = sr.Recognizer()
 
