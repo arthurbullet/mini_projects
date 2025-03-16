@@ -1,6 +1,6 @@
 import secrets
 import string
-
+#главная генерация 
 def generate_password(length=12):
     chars = string.ascii_letters + string.digits + string.punctuation
     
